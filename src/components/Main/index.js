@@ -23,8 +23,9 @@ function Main() {
       date={post.date}
       author={post.author}
       text={post.text}
-    // highlights={highlights}
-    //image={image} 
+      highlights={post.highlights}
+      image={post.image} 
+      pigeonName= {post.pigeonName}
     />
     );
   })}</main>
